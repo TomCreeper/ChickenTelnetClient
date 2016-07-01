@@ -8,7 +8,7 @@
         </playerCommand>
         <playerCommand>
             <name>Toggle Mute</name>
-            <format>mute $TARGET_NAME</format>
+            <format>stfu $TARGET_NAME</format>
         </playerCommand>
         <playerCommand>
             <name>Kick</name>
