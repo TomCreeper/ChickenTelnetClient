@@ -518,7 +518,7 @@ public class BTC_MainPanel extends javax.swing.JFrame
         favoriteButtonsPanel = new BTC_FavoriteButtonsPanel(favButtonList);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("BukkitTelnetClient");
+        setTitle("VickiTelnetClient");
 
         splitPane.setResizeWeight(1.0);
 
