@@ -270,16 +270,16 @@ public class BTC_ConnectionManager
         {
             if (loginName == null)
             {
-                title = String.format("ChickenTelnetClient - %s - %s:%d", BukkitTelnetClient.VERSION_STRING, hostname, port);
+                title = String.format("VickiTelnetClient - %s - %s:%d", BukkitTelnetClient.VERSION_STRING, hostname, port);
             }
             else
             {
-                title = String.format("ChickenTelnetClient - %s - %s@%s:%d", BukkitTelnetClient.VERSION_STRING, loginName, hostname, port);
+                title = String.format("VickiTelnetClient - %s - %s@%s:%d", BukkitTelnetClient.VERSION_STRING, loginName, hostname, port);
             }
         }
         else
         {
-            title = String.format("ChickenTelnetClient - %s - Disconnected", BukkitTelnetClient.VERSION_STRING);
+            title = String.format("VickiTelnetClient - %s - Disconnected", BukkitTelnetClient.VERSION_STRING);
         }
 
         mainPanel.setTitle(title);
